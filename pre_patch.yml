@@ -1,0 +1,6 @@
+---
+- name: Pre-Patch Play
+  hosts: "{{ run_hosts }}"
+  become: yes
+  roles:
+    - Pre_Patch

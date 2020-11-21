@@ -1,0 +1,5 @@
+---
+- import_playbook: pre_patch.yml
+- import_playbook: patch.yml
+- import_playbook: reboot_os.yml
+- import_playbook: post_patch.yml

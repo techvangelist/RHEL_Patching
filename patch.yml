@@ -1,0 +1,6 @@
+---
+- name: Patch Play
+  hosts: "{{ run_hosts }}"
+  become: yes
+  roles:
+    - Patch

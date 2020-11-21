@@ -1,0 +1,6 @@
+---
+- name: Post-Patch Play
+  hosts: "{{ run_hosts }}"
+  become: yes
+  roles:
+    - Post_Patch

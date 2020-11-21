@@ -1,0 +1,6 @@
+---
+- name: Reboot Server
+  hosts: "{{ run_hosts }}"
+  become: yes
+  roles:
+    - Reboot_OS
